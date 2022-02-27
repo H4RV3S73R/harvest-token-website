@@ -10,7 +10,7 @@ export const Home = () => (
                 <p class="title is-size-1">
                     Harvest HST
                 </p>
-                <p class="subtitle has-text-centered">
+                <p class="subtitle is-left">
                     ERC20 Token
                 </p>
             </div>
@@ -51,7 +51,7 @@ export const Home = () => (
         </div>
 
         <hr />
-        
+
         <div class="columns">
 
             <div class="column">
