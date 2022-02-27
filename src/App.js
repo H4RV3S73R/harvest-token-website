@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import logo from './harvest-logo-200-200.png';
+// import logo from './harvest-logo-200-200.png';
 import './App.css';
 
 function App() {
@@ -84,8 +84,6 @@ function App() {
           </div>
 
           <hr />
-
-          <img src={logo} className="App-logo" width="200" height="auto" alt="logo"  />
 
           <footer class="footer">
             <div class="content has-text-centered">
