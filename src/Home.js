@@ -48,7 +48,7 @@ export const Home = () => (
 
         <hr />
 
-        <div class="columns">
+        <div class="columns is-multiline">
 
             <div class="column">
                 <p class="is-size-2">Key Points</p>
