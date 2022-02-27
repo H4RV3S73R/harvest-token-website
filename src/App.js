@@ -1,6 +1,5 @@
 import React from 'react';
-import 'bulma/css/bulma.css'
-import logo1 from './logo.svg';
+import 'bulma/css/bulma.css';
 import logo from './harvest-logo-300-300.png';
 import './App.css';
 
