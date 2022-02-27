@@ -1,6 +1,6 @@
 {
   "short_name": "Harvest Token",
-  "name": "Harvest (HST) ERC20 Token Website (Offline)",
+  "name": "Harvest (HST) ERC20 Token Website [Burnable - Votes - Snapshots - Access Control: Roles]",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
