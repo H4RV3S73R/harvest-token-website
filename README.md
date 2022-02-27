@@ -51,6 +51,6 @@ Follow us, we know the path,
 - Avalanche Mainnet :link: <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30a#code" target="_new">**Contract Source Code Verified**</a>
 
 ## Official Website
-- Harvest Token :link: <a href="https://h4rv3st.com" target="_new">**Website**</a>
+- Harvest Token :link: <a href="https://H4RV3S7.com" target="_new">**Website**</a>
 
 ### harvest
