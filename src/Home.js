@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import harvest from './assets/harvest-1920-1240-B.png';
+import harvest from './assets/harvest-1920-1240-x.png';
 
 // import logo from './harvest-logo-200-200.png';
 
