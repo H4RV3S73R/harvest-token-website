@@ -85,7 +85,7 @@ function App() {
 
           <hr />
 
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" width="200" height="auto" alt="logo"  />
 
           <footer class="footer">
             <div class="content has-text-centered">
