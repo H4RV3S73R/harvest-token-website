@@ -18,7 +18,7 @@ function App() {
           </div>
         </section>
 
-        <div class="container is-fluid">
+        <div class="container">
 
           <div class="block">
             <strong>HARVEST (aka H4RV3ST)</strong> helps maintain the sustainability of
