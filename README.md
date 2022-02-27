@@ -46,8 +46,8 @@ Follow us, we know the path,
 - Owner: **0xB06371532B0fEb5e1c4f5FB77Ec349CC5d514Fd7**
 - Contract Addresses: **0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30**
 
-## Explorer`s
+## Explorer
 
-- Avalanche mainnet :link: <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30a#code" target="_new">**Contract Source Code Verified**</a>
+- Avalanche Mainnet :link: <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30a#code" target="_new">**Contract Source Code Verified**</a>
 
 ### harvest
