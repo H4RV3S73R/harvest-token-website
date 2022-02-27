@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
+import { Footer } from "./components/Footer"
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route component={NoMatch} />
             </Switch>
+            <Footer />
           </Layout>
         </Router>
       </React.Fragment>

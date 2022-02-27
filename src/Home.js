@@ -5,7 +5,7 @@ import 'bulma/css/bulma.css';
 
 export const Home = () => (
     <>
-        <section class="hero is-primary">
+        <section class="hero">
             <div class="hero-body">
                 <p class="title is-size-1">
                     Harvest HST
@@ -60,7 +60,7 @@ export const Home = () => (
                 <p><strong>Snapshots</strong>: Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
                 <p><strong>Access Control - Roles</strong>: Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
-
+<vr />
             <div class="column">
                 <p class="is-size-2">General Information</p>
                 <p>Token Name: <strong>HARVEST</strong></p>
@@ -74,15 +74,9 @@ export const Home = () => (
             </div>
 
         </div>
+     
 
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    <strong>Harvest HST Token </strong> on AVAX <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30#code" target="_new">
-                        Contract Source Code Verified</a>. The website built by <strong>BULMA</strong>.
-                </p>
-            </div>
-        </footer>
+       
 
     </>
 )

@@ -9,5 +9,6 @@ export const Layout = (props) => (
     <div className="container is-fluid">
         {props.children}
     </div>
+
 </>
 )
