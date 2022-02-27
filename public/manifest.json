@@ -1,11 +1,11 @@
 {
   "short_name": "Harvest Token",
-  "name": "Harvest (HST) Token Offline Website",
+  "name": "Harvest (HST) ERC20 Token Website (Offline)",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "Harvest (HST) ERC20 Token Website",
+  "description": "Harvest (HST) ERC20 Token Website (Offline)",
   "icons": [
     {
       "src": "favicon.ico",
