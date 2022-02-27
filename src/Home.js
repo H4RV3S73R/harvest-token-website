@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import harvest from './assets/harvest-1920-1240-x.png';
+import harvest from './assets/harvest-500-500-a.png';
 
 // import logo from './harvest-logo-200-200.png';
 
@@ -10,7 +10,7 @@ export const Home = () => (
         <section class="hero"
             style={{
                 backgroundImage: "url(" + harvest + ")",
-                backgroundPosition: 'center',
+                backgroundPosition: 'left',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 width: '100%',
@@ -24,7 +24,8 @@ export const Home = () => (
                     ERC20 Token
                 </p>
             </div>
-        
+            </section>
+        <hr />
 
         <div class="block">
             <strong>HARVEST (aka H4RV3ST)</strong> helps maintain the sustainability of
@@ -84,7 +85,7 @@ export const Home = () => (
             </div>
 
         </div>
-        </section>
+        
 
        
 
