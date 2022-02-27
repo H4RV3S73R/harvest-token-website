@@ -62,10 +62,10 @@ export const Home = () => (
 
             <div class="column">
                 <p class="is-size-2">Key Points</p>
-                <p><strong>Mintable</strong>: Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
+                <p><strong class="has-text-danger">Mintable</strong>: Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
                 <p><strong class="is-underlined">Burnable</strong>: Token holders are able to destroy their tokens.</p>
-                <p><strong>Pausable</strong>: Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
-                <p><strong>Permit</strong>: Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
+                <p><strong class="has-text-danger">Pausable</strong>: Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
+                <p><strong class="has-text-danger">Permit</strong>: Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
                 <p><strong class="is-underlined">Votes</strong>: Keeps track of historical balances for voting in on-chain governance, with a way to delegate one's voting power to a trusted account.</p>
                 <p><strong class="is-underlined">Snapshots</strong>: Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
                 <p><strong class="is-underlined">Access Control - Roles</strong>: Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
