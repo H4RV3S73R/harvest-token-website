@@ -1,0 +1,40 @@
+{
+  "short_name": "Harvest Token",
+  "name": "Harvest (HST) Token",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Harvest (HST) ERC20 Token Website",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "harvest-800-800.png",
+      "type": "image/png",
+      "sizes": "800x800",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "harvest-192-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "harvest-340-340.png",
+      "type": "image/png",
+      "sizes": "340x340",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "harvest-512-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }]
+}
