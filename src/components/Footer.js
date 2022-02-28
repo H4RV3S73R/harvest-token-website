@@ -12,7 +12,6 @@ export const Footer = () => (
       <div className="content has-text-centered">
 
         <p>
-
         <div>
         <p><span><i className="fas fa-arrow-down" title="Follow us on"> Contact - Follow us on</i> <i className="fas fa-arrow-down" title="Follow us on"></i></span></p>
 
@@ -30,7 +29,6 @@ export const Footer = () => (
             </span>
 
           </h2>
-
         </div>
 
         </p>
