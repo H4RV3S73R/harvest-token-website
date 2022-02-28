@@ -1,6 +1,13 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import harvest from './assets/harvest-500-500-a.png';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
+import harvest from './assets/harvester-back-1366-768.png';
+import back1 from './assets/harvester-back-600-300-1.png';
+import back2 from './assets/harvester-back-600-300-2.png';
+import back3 from './assets/harvester-back-600-300-3.png';
+import back4 from './assets/harvester-back-600-300-4.png';
+
 
 // import logo from './harvest-logo-200-200.png';
 
@@ -10,11 +17,11 @@ export const Home = () => (
         <section class="hero"
             style={{
                 backgroundImage: "url(" + harvest + ")",
-                backgroundPosition: 'left',
+                backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 width: '100%',
-                
+
             }}>
             <div class="hero-body">
                 <p class="title is-size-1">
@@ -24,46 +31,70 @@ export const Home = () => (
                     ERC20 Token
                 </p>
             </div>
-            </section>
+        </section>
         <hr />
 
-        <div class="block">
-            <strong>HARVEST (aka H4RV3ST)</strong> helps maintain the sustainability of
-            water sources of the ecosystem. In today`s world we just
-            people realized the sources are not limitless and we as a
-            people are responsible for any other people and species as well.
-        </div>
-        <div class="block">
-            In the beginning, we were thinking about what we could do to save
-            the water for tomorrow, we realized saving the water is only possible
-            with care before educating the people.
-        </div>
-        <div class="block">
-            All we have been witnessed lots of harm and irrevocable demolitions
-            by some of the well-educated people in history. Before starting to
-            educate people there is something we need to do.
-        </div>
-        <div class="block">
-            Now we have learned that care is more important than anything. At
-            this point, we have been missioned to explain to the people what is
-            the benefit of saving water for tomorrow.
-        </div>
-        <div class="block">
-            We believe we can unite the people, we can explain what is pollution in
-            true meaning to protect our planet for future. And all we can work together
-            by hand in hand.
-        </div>
-        <div class="block">
-            Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
+        <div class="columns">
+
+            <div class="column"
+                style={{
+                    backgroundImage: "url(" + back1 + ")",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    width: '100%',
+
+                }}>
+                <p><span><i class="fa-solid fa-angles-right"></i></span></p>
+                <strong>HARVEST (aka H4RV3ST)</strong> helps maintain the sustainability of
+                water sources of the ecosystem. In today`s world we just
+                people realized the sources are not limitless and we as a
+                people are responsible for any other people and species as well.
+                In the beginning, we were thinking about what we could do to save
+                the water for tomorrow, we realized saving the water is only possible
+                with care before educating the people.
+                We believe we can unite the people, we can explain what is pollution in
+                true meaning to protect our planet for future. And all we can work together
+                by hand in hand.
+            </div>
+            <div class="column"
+                style={{
+                    backgroundImage: "url(" + back2 + ")",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    width: '100%',
+
+                }}>
+                <p><span><i class="fa-solid fa-angles-right"></i></span></p>
+                All we have been witnessed lots of harm and irrevocable demolitions
+                by some of the well-educated people in history. Before starting to
+                educate people there is something we need to do.
+
+                Now we have learned that care is more important than anything. At
+                this point, we have been missioned to explain to the people what is
+                the benefit of saving water for tomorrow.
+
+                We believe we can unite the people, we can explain what is pollution in
+                true meaning to protect our planet for future. And all we can work together
+                by hand in hand. Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
+            </div>
         </div>
 
         <hr />
 
-        <div class="columns is-multiline">
+        <div class="columns">
+            <div class="column"
+                style={{
+                    backgroundImage: "url(" + back3 + ")",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    width: '100%',
 
-            <div class="column">
+                }}>
                 <p class="is-size-2">Key Points</p>
-                <p><strong class="has-text-danger">Mintable</strong>: Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
+                <p><strong className="has-text-danger">Mintable</strong>: Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
                 <p><strong class="is-underlined">Burnable</strong>: Token holders are able to destroy their tokens.</p>
                 <p><strong class="has-text-danger">Pausable</strong>: Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
                 <p><strong class="has-text-danger">Permit</strong>: Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
@@ -71,8 +102,18 @@ export const Home = () => (
                 <p><strong class="is-underlined">Snapshots</strong>: Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
                 <p><strong class="is-underlined">Access Control - Roles</strong>: Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
-<vr />
-            <div class="column">
+
+            <vr />
+
+            <div class="column"
+                            style={{
+                                backgroundImage: "url(" + back4 + ")",
+                                backgroundPosition: 'center',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                width: '100%',
+            
+                            }}>
                 <p class="is-size-2">General Information</p>
                 <p>Token Name: <strong>HARVEST</strong></p>
                 <p>Abbreviation: <strong>HST</strong></p>
@@ -83,11 +124,7 @@ export const Home = () => (
                 <p>Owner: <strong>0xB06371532B0fEb5e1c4f5FB77Ec349CC5d514Fd7</strong></p>
                 <p>Contract Addresses: <strong>0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30</strong></p>
             </div>
-
         </div>
-        
-
-       
 
     </>
 )
