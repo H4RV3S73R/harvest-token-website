@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 export const Footer = () => (
   <>
 
-    <footer className="footer">
+    <footer className="footer is-unselectable">
 
       <div className="content has-text-centered">
 
