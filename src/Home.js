@@ -100,7 +100,7 @@ export const Home = () => (
 
                 We believe we can unite the people, we can explain what is pollution in
                 true meaning to protect our planet for future. And all we can work together
-                by hand in hand. Follow us, we know the path, we are the <span class="icon is-medium"><i class="fas fa-heading fa-2x"></i></span><strong>4RV3S73R</strong>.
+                by hand in hand. Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
             </div>
         </div>
 

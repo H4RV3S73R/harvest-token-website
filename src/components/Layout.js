@@ -7,8 +7,9 @@ import 'bulma/css/bulma.min.css';
 export const Layout = (props) => (
     <>
     <div class="container is-fluid">
-    <div class="row"></div>
+    <div class="row">
         {props.children}
+        </div>
         
     </div>
 </>
