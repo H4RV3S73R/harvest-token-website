@@ -6,10 +6,10 @@ import 'bulma/css/bulma.min.css';
 
 export const Layout = (props) => (
     <>
-    <div className="container is-fluid">
-    <div class="row">
+    <div class="container is-fluid">
+    
         {props.children}
-        </div>
+        
     </div>
 </>
 )
