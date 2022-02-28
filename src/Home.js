@@ -144,34 +144,34 @@ export const Home = () => (
                 width: '100%',
             }}>
 
-            <div class="column">
-                <p class="tag is-size-4 is-danger tag is-rounded has-text-centered">Mintable</p>
+            <div class="column has-text-centered">
+                <p class="tag is-size-4 is-danger tag is-rounded">Mintable</p>
                 <p>Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
             </div>
-            <div class="column">
-                <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Burnable</p>
+            <div class="column has-text-centered">
+                <p class="tag is-size-4 is-success tag is-rounded">Burnable</p>
                 <p>Token holders are able to destroy their tokens.</p>
             </div>
-            <div class="column">
-                <p class="tag is-size-4 is-danger is-small tag is-rounded has-text-centered">Pausable</p>
+            <div class="column has-text-centered">
+                <p class="tag is-size-4 is-danger is-small tag is-rounded">Pausable</p>
                 <p>Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
             </div>
-            <div class="column">
+            <div class="column has-text-centered">
             
-                <p class="tag is-size-4 is-danger is-rounded has-text-centered">Permit</p>
+                <p class="tag is-size-4 is-danger is-rounded">Permit</p>
                 <p>Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
 
             </div>
-            <div class="column">
-                <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Votes</p>
+            <div class="column has-text-centered">
+                <p class="tag is-size-4 is-success tag is-rounded">Votes</p>
                 <p>Keeps track of historical balances for voting in on-chain governance, with a way to delegate one's voting power to a trusted account.</p>
             </div>
-            <div class="column">
-                <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Snapshots</p>
+            <div class="column has-text-centered">
+                <p class="tag is-size-4 is-success tag is-rounded">Snapshots</p>
                 <p>Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
             </div>
-            <div class="column">
-                <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Access Control: Roles</p>
+            <div class="column has-text-centered">
+                <p class="tag is-size-4 is-success tag is-rounded">Access Control: Roles</p>
                 <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
         </div>
