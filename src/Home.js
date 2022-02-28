@@ -59,7 +59,7 @@ export const Home = () => (
 
         <hr />
 
-        <div class="columns">
+        <div class="columns has-text-justified">
             <div class="column"
                 style={{
                     backgroundImage: "url(" + back1 + ")",
@@ -68,7 +68,7 @@ export const Home = () => (
                     backgroundRepeat: 'no-repeat',
                     width: '100%',
                 }}>
-                <p><span><i class="fa-solid fa-angles-right"></i></span></p>
+                 <p class="is-unselectable"><span><i class="fa-solid fa-angles-right"></i></span></p>
                 <strong>HARVEST (aka H4RV3ST)</strong> helps maintain the sustainability of
                 water sources of the ecosystem. In today`s world we just
                 people realized the sources are not limitless and we as a
@@ -88,7 +88,7 @@ export const Home = () => (
                     backgroundRepeat: 'no-repeat',
                     width: '100%',
                 }}>
-                <p><span><i class="fa-solid fa-angles-down"></i></span></p>
+                <p class="is-unselectable"><span><i class="fa-solid fa-angles-down"></i></span></p>
                 All we have been witnessed lots of harm and irrevocable demolitions
                 by some of the well-educated people in history. Before starting to
                 educate people there is something we need to do.
@@ -105,7 +105,7 @@ export const Home = () => (
 
         <hr />
 
-        <div class="columns">
+        <div class="columns has-text-justified">
             <div class="column has-text-centered"
                 style={{
                     backgroundImage: "url(" + back4 + ")",
@@ -134,7 +134,7 @@ export const Home = () => (
             <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Key Points</p>
             <p>&nbsp;</p>
         </div>
-        <div class="columns"
+        <div class="columns has-text-justified"
             style={{
                 backgroundImage: "url(" + harvest + ")",
                 backgroundPosition: 'center',
@@ -145,31 +145,33 @@ export const Home = () => (
 
             <div class="column">
                 <p class="tag is-size-4 is-danger tag is-rounded has-text-centered">Mintable</p>
-                <p>Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
+                <p class="is-unselectable">Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
             </div>
             <div class="column">
                 <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Burnable</p>
-                <p>Token holders are able to destroy their tokens.</p>
+                <p class="is-unselectable">Token holders are able to destroy their tokens.</p>
             </div>
             <div class="column">
                 <p class="tag is-size-4 is-danger is-small tag is-rounded has-text-centered">Pausable</p>
-                <p>Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
+                <p class="is-unselectable">Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
             </div>
             <div class="column">
+            
                 <p class="tag is-size-4 is-danger is-rounded has-text-centered">Permit</p>
-                <p>Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
+                <p class="is-unselectable">Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
+
             </div>
             <div class="column">
                 <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Votes</p>
-                <p>Keeps track of historical balances for voting in on-chain governance, with a way to delegate one's voting power to a trusted account.</p>
+                <p class="is-unselectable">Keeps track of historical balances for voting in on-chain governance, with a way to delegate one's voting power to a trusted account.</p>
             </div>
             <div class="column">
                 <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Snapshots</p>
-                <p>Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
+                <p class="is-unselectable">Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
             </div>
             <div class="column">
                 <p class="tag is-size-4 is-success tag is-rounded has-text-centered">Access Control: Roles</p>
-                <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
+                <p class="is-unselectable">Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
         </div>
 
