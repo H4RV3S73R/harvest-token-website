@@ -68,7 +68,7 @@ export const Home = () => (
 
             <div class="column">
                 <div class="block">
-                    <span class="icon is-medium"><i class="fas fa-heading fa-2x"></i></span><strong>ARVEST</strong> helps maintain the sustainability of water sources of the ecosystem. In today`s
+                    <strong>HARVEST</strong> helps maintain the sustainability of water sources of the ecosystem. In today`s
                     world we just people realized the sources are not limitless and we as a people are responsible for any other people
                     and species as well. In the beginning, we were thinking about what we could do to save the water for tomorrow,
                     we realized saving the water is only possible with care before educating the people.
