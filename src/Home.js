@@ -128,7 +128,9 @@ export const Home = () => (
                 <p>Contract Addresses: <strong>0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30</strong></p>
             </div>
         </div>
+        
         <hr />
+
         <div class="has-text-centered">
             <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Key Points</p>
             <p>&nbsp;</p>
@@ -173,6 +175,7 @@ export const Home = () => (
                 <p class="tag is-size-4 is-success tag is-rounded">Access Control: Roles</p>
                 <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
+
         </div>
 
     </>
