@@ -10,7 +10,6 @@ import key from './assets/harvest-key-1200-300.png';
 
 export const Home = () => (
     <>
-
         <div class="columns is-vcentered is-centered has-text-centered">
             <div class="column">
                 <p class="is-size-1"><strong>HARVEST HST</strong> ERC20 Token</p>
