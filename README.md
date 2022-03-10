@@ -41,7 +41,7 @@ Follow us, we know the path,
 - Abbreviation: **HST**
 - Max Total Supply: **10,000,000 $HST**
 - Type: **ERC-20**
-- Networks: **Avalanche Mainnet**
+- Network: **Avalanche Mainnet**
 - Decimals: **18**
 - Owner: **0xB06371532B0fEb5e1c4f5FB77Ec349CC5d514Fd7**
 - Contract Addresses: **0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30**

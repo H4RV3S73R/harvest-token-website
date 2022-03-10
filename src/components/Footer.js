@@ -1,45 +1,75 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import TypeWriterEffect from 'react-typewriter-effect';
+import { FaFlagCheckered, FaTwitter, FaGithub } from 'react-icons/fa';
 
-// Test
+import t from '../assets/harvest-logo-500-300.png';
 
 export const Footer = () => (
   <>
 
     <footer className="footer is-unselectable">
 
-      <div className="content has-text-centered">
+      <div class="columns is-centered is-justified is-unselectable">
 
-        <p>
-        <div>
-        <p><span><i className="fas fa-arrow-down" title="Follow us on"> Contact - Follow us on</i> <i className="fas fa-arrow-down" title="Follow us on"></i></span></p>
+        <div class="column">
+          <div class="content is-size-6">
+            <p class="has-text-centered">
+              <img src={t} alt="Harvest" width="200px" height="100px" />
+            </p>
+            <p class="is-size-7">
+              <TypeWriterEffect
+                textStyle={{
+                  textAlign: "center",
+                  color: "#4BB543",
+                }}
+                startDelay={1500}
+                cursorColor="#3F3D56"
+                multiText={[
+                  'We are HARVESTER.',
+                  'a.k.a.',
+                  'H4RV3S73R.',
+                  'Hic et ubique terarum.',
+                ]}
+                multiTextDelay={1500}
+                multiTextLoop={200}
+                typeSpeed={50}
+              />
+            </p>
+            <p>
+              <center>© {new Date().getFullYear()} | <strong>HARVEST</strong></center>
+            </p>
 
-          <h2>
-            <span className="icon-text has-text-info">
-
-              <span className="icon">
-                <a href="https://github.com/H4RV3S73R" target="_new" title="HARVEST on Github"><i className="fab fa-github" title="HARVEST on Github"></i></a>
-              </span>
-
-              <span className="icon">
-                <a href="https://www.twitter.com/H4RV3S73R" target="_new" title="HARVEST on Twitter"><i className="fab fa-twitter" title="HARVEST on Twitter"></i></a>
-              </span>
-
-            </span>
-
-          </h2>
+          </div>
         </div>
 
-        </p>
+        <div class="column">
+          <div class="content">
 
-        <p>
-          <strong>Harvest HST Token </strong> on Avalanche Mainnet and <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30#code" target="_new">
-          <strong class="is-underlined">Contract Source Code Verified</strong></a>. | The website built with <strong>BULMA</strong>.
-        </p>
-        <p>
-          <span> © {new Date().getFullYear()} | <strong>Harvest</strong></span>
-        </p>
+            <p>
+              <b>General</b>
+            </p>
+            <ul>
+              <li>
+                <a href="https://github.com/H4RV3S73R" target="_new" title="HARVEST on Github"><FaGithub /> Github</a>
+              </li>
+              <p></p>
+              <li>
+                <a href="https://www.twitter.com/H4RV3S73R" target="_new" title="HARVEST on Twitter"><FaTwitter /> Twitter</a>
+              </li>
+              <p></p>
+              <li>
+                <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30#code" target="_new" title="HARVEST on SnowTrace"><FaFlagCheckered /> Verified Contract</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="column">
+
+        </div>
 
       </div>
 

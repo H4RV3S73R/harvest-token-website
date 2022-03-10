@@ -3,113 +3,111 @@ import 'bulma/css/bulma.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import TypeWriterEffect from 'react-typewriter-effect';
 
-import harvest from './assets/harvester-back-1280-300.png';
-import back1 from './assets/harvester-back-600-300-1.png';
-import back2 from './assets/harvester-back-600-300-2.png';
-import back4 from './assets/harvester-back-600-300-4.png';
+import t1 from './assets/harvest-main-800-600.png';
+import t2 from './assets/harvest-m1-800-600.png';
+import t3 from './assets/harvest-b1-1200-300.png';
+import t4 from './assets/harvest-b2-1200-300.png';
 
 export const Home = () => (
     <>
-        <section class="hero"
-            style={{
-                backgroundImage: "url(" + harvest + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-            }}>
-            <div class="hero-body">
-                <div class="columns is-unselectable">
-                    <div class="column has-text-justified">
-                        <p class="title is-size-1">
-                            Harvest HST
-                        </p>
-                        <p class="subtitle is-left">
-                            ERC20 Token
-                        </p>
-                        <p>
-                            <TypeWriterEffect
-                                textStyle={{
-                                    fontFamily: 'Red Hat Display',
-                                    color: '#3F3D56',
-                                    fontWeight: 600,
-                                    fontSize: '1.5em',
-                                }}
-                                startDelay={2000}
-                                cursorColor="#3F3D56"
-                                multiText={[
-                                    'Mintable: NOT.',
-                                    'Burnable: YES.',
-                                    'Pausable: NO.',
-                                    'Permit: NOT.',
-                                    'Votes: YES.',
-                                    'Snapshots: YES.',
-                                    'Access Control - Roles: YES.',
-                                    'We are the H4RV3S73R.',
-                                ]}
-                                multiTextDelay={1000}
-                                multiTextLoop={200}
-                                typeSpeed={50}
-                            />
-                        </p>
-                    </div>
+
+        <div class="columns is-vcentered is-centered has-text-centered">
+            <div class="column">
+                <p class="is-size-1"><strong>HARVEST HST</strong> ERC20 Token</p>
+                    <p class="has-text-centered">
+                        <TypeWriterEffect
+                            textStyle={{
+                                fontFamily: 'Red Hat Display',
+                                textAlign: "center",
+                                color: '#3F3D56',
+                                fontWeight: 600,
+                                fontSize: '1.5em',
+                            }}
+                            startDelay={2000}
+                            cursorColor="#3F3D56"
+                            multiText={[
+                                'Mintable: NOT.',
+                                'Burnable: YES.',
+                                'Pausable: NO.',
+                                'Permit: NOT.',
+                                'Votes: YES.',
+                                'Snapshots: YES.',
+                                'Access Control - Roles: YES.',
+                                'We are the H4RV3S73R.',
+                            ]}
+                            multiTextDelay={1000}
+                            multiTextLoop={200}
+                            typeSpeed={50}
+                        />
+                    </p>
+            </div>
+            <div class="column is-8">
+                <img src={t1} alt="Harvest HST ERC20 Token"
+                    style={{
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        opacity: "100%",
+                        width: '100%',
+                    }} />
+            </div>
+        </div>
+
+        <div class="columns is-vcentered has-text-justified">
+
+            <div class="column">
+                <img src={t2} alt="All your need about Social Media"
+                    style={{
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        opacity: "100%",
+                        width: '100%',
+                    }} />
+            </div>
+
+            <div class="column">
+                <div class="block">
+                    <span class="icon is-medium"><i class="fas fa-heading fa-2x"></i></span><strong>ARVEST</strong> helps maintain the sustainability of water sources of the ecosystem. In today`s
+                    world we just people realized the sources are not limitless and we as a people are responsible for any other people
+                    and species as well. In the beginning, we were thinking about what we could do to save the water for tomorrow,
+                    we realized saving the water is only possible with care before educating the people.
+                </div>
+                <div class="block">
+                    We believe we can unite the people,
+                    we can explain what is pollution in true meaning to protect our planet for future. And all we can work together by hand in hand.
+                </div>
+
+                <div class="block">
+                    All we have been witnessed lots of harm and irrevocable demolitions
+                    by some of the well-educated people in history. Before starting to
+                    educate people there is something we need to do.
+
+                    Now we have learned that care is more important than anything.
+                </div>
+                <div class="block">
+                    At
+                    this point, we have been missioned to explain to the people what is
+                    the benefit of saving water for tomorrow.
+
+                    We believe we can unite the people, we can explain what is pollution in
+                    true meaning to protect our planet for future. And all we can work together
+                    by hand in hand.
+                </div>
+                <div class="block">
+                    Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
                 </div>
             </div>
-        </section>
 
-        <hr />
-
-        <div class="columns is-unselectable has-text-justified">
-            <div class="column"
-                style={{
-                    backgroundImage: "url(" + back1 + ")",
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    width: '100%',
-                }}>
-                 <p><span><i class="fa-solid fa-angles-right"></i></span></p>
-
-  <span class="icon is-medium"><i class="fas fa-heading fa-2x"></i></span><strong>ARVEST (aka H4RV3ST)</strong> helps maintain the sustainability of
-                water sources of the ecosystem. In today`s world we just
-                people realized the sources are not limitless and we as a
-                people are responsible for any other people and species as well.
-                In the beginning, we were thinking about what we could do to save
-                the water for tomorrow, we realized saving the water is only possible
-                with care before educating the people.
-                We believe we can unite the people, we can explain what is pollution in
-                true meaning to protect our planet for future. And all we can work together
-                by hand in hand.
-            </div>
-            <div class="column"
-                style={{
-                    backgroundImage: "url(" + back2 + ")",
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    width: '100%',
-                }}>
-                <p><span><i class="fa-solid fa-angles-down"></i></span></p> 
-                All we have been witnessed lots of harm and irrevocable demolitions
-                by some of the well-educated people in history. Before starting to
-                educate people there is something we need to do.
-
-                Now we have learned that care is more important than anything. At
-                this point, we have been missioned to explain to the people what is
-                the benefit of saving water for tomorrow.
-
-                We believe we can unite the people, we can explain what is pollution in
-                true meaning to protect our planet for future. And all we can work together
-                by hand in hand. Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
-            </div>
         </div>
 
         <hr />
 
         <div class="columns is-unselectable has-text-justified">
+
             <div class="column has-text-centered"
                 style={{
-                    backgroundImage: "url(" + back4 + ")",
+                    backgroundImage: "url(" + t3 + ")",
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
@@ -122,9 +120,9 @@ export const Home = () => (
                 </div>
                 <p>Token Name: <strong>HARVEST</strong></p>
                 <p>Abbreviation: <strong>HST</strong></p>
-                <p>Max Total Supply: <strong>10,000,000 $HST</strong></p>
+                <p>Max Total Supply: <strong>10 000 000 $HST</strong></p>
                 <p>Type: <strong>ERC-20</strong></p>
-                <p>Networks: <strong>AVAX</strong></p>
+                <p>Network: <strong>Avalanche Mainnet</strong></p>
                 <p>Decimals: <strong>18</strong></p>
                 <p>Owner: <strong>0xB06371532B0fEb5e1c4f5FB77Ec349CC5d514Fd7</strong></p>
                 <p>Contract Addresses: <strong>0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30</strong></p>
@@ -135,9 +133,10 @@ export const Home = () => (
             <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Key Points</p>
             <p>&nbsp;</p>
         </div>
+
         <div class="columns is-unselectable has-text-justified"
             style={{
-                backgroundImage: "url(" + harvest + ")",
+                backgroundImage: "url(" + t4 + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -157,7 +156,7 @@ export const Home = () => (
                 <p>Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
             </div>
             <div class="column has-text-centered">
-            
+
                 <p class="tag is-size-4 is-danger is-rounded">Permit</p>
                 <p>Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
 
@@ -174,6 +173,7 @@ export const Home = () => (
                 <p class="tag is-size-4 is-success tag is-rounded">Access Control: Roles</p>
                 <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
+
         </div>
 
     </>

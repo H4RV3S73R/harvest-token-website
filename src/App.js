@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
-import { Footer } from "./components/Footer"
+import { Footer } from "./components/Footer";
+import { NavigationBar } from './components/NavigationBar';
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Router>
+          <NavigationBar />
           <Layout>
             <Switch>
               <Route exact path="/" component={Home} />
