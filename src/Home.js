@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import '@fortawesome/fontawesome-free/css/all.min.css'
 import TypeWriterEffect from 'react-typewriter-effect';
 
 import t1 from './assets/harvest-main-800-600.png';

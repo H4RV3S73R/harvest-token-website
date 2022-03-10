@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css'
 import TypeWriterEffect from 'react-typewriter-effect';
 import { FaFlagCheckered, FaTwitter, FaGithub } from 'react-icons/fa';
 
