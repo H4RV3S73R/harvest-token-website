@@ -99,7 +99,6 @@ export const Home = () => (
                     </blockquote>
                 </div>
             </div>
-
         </div>
 
         <hr />
