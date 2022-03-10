@@ -5,8 +5,8 @@ import TypeWriterEffect from 'react-typewriter-effect';
 
 import t1 from './assets/harvest-main-800-600.png';
 import t2 from './assets/harvest-m1-800-600.png';
-import t3 from './assets/harvest-b1-1200-300.png';
-import t4 from './assets/harvest-b2-1200-300.png';
+import general from './assets/harvest-general-1200-300.png';
+import key from './assets/harvest-key-1200-300.png';
 
 export const Home = () => (
     <>
@@ -94,8 +94,10 @@ export const Home = () => (
                     true meaning to protect our planet for future. And all we can work together
                     by hand in hand.
                 </div>
-                <div class="block">
+                <div class="content">
+                <blockquote>
                     Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
+                    </blockquote>
                 </div>
             </div>
 
@@ -107,7 +109,7 @@ export const Home = () => (
 
             <div class="column has-text-centered"
                 style={{
-                    backgroundImage: "url(" + t3 + ")",
+                    backgroundImage: "url(" + general + ")",
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
@@ -136,7 +138,7 @@ export const Home = () => (
 
         <div class="columns is-unselectable has-text-justified"
             style={{
-                backgroundImage: "url(" + t4 + ")",
+                backgroundImage: "url(" + key + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
