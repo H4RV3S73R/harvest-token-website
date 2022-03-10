@@ -23,7 +23,6 @@ export const NoMatch = () => (
                     <h1 className='title has-text-black is-family-secondary'>
                         404 - Page Not Found | Harvest
                     </h1>
-
                     <h4>
                         <span className="icon-text">
 
@@ -47,7 +46,6 @@ export const NoMatch = () => (
                             </span>
                         </span>
                     </h4>
-
                 </div>
             </div>
         </section>
