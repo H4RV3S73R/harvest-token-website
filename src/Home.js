@@ -13,32 +13,32 @@ export const Home = () => (
         <div class="columns is-vcentered is-centered has-text-centered">
             <div class="column">
                 <p class="is-size-1"><strong>HARVEST HST</strong> ERC20 Token</p>
-                    <p class="has-text-centered">
-                        <TypeWriterEffect
-                            textStyle={{
-                                fontFamily: 'Red Hat Display',
-                                textAlign: "center",
-                                color: '#3F3D56',
-                                fontWeight: 600,
-                                fontSize: '1.5em',
-                            }}
-                            startDelay={2000}
-                            cursorColor="#3F3D56"
-                            multiText={[
-                                'Mintable: NOT.',
-                                'Burnable: YES.',
-                                'Pausable: NO.',
-                                'Permit: NOT.',
-                                'Votes: YES.',
-                                'Snapshots: YES.',
-                                'Access Control - Roles: YES.',
-                                'We are the H4RV3S73R.',
-                            ]}
-                            multiTextDelay={1000}
-                            multiTextLoop={200}
-                            typeSpeed={50}
-                        />
-                    </p>
+                <p class="has-text-centered">
+                    <TypeWriterEffect
+                        textStyle={{
+                            fontFamily: 'Red Hat Display',
+                            textAlign: "center",
+                            color: '#3F3D56',
+                            fontWeight: 600,
+                            fontSize: '1.5em',
+                        }}
+                        startDelay={2000}
+                        cursorColor="#3F3D56"
+                        multiText={[
+                            'Mintable: NOT.',
+                            'Burnable: YES.',
+                            'Pausable: NO.',
+                            'Permit: NOT.',
+                            'Votes: YES.',
+                            'Snapshots: YES.',
+                            'Access Control - Roles: YES.',
+                            'We are the H4RV3S73R.',
+                        ]}
+                        multiTextDelay={1000}
+                        multiTextLoop={200}
+                        typeSpeed={50}
+                    />
+                </p>
             </div>
             <div class="column is-8">
                 <img src={t1} alt="Harvest HST ERC20 Token"
@@ -94,8 +94,8 @@ export const Home = () => (
                     by hand in hand.
                 </div>
                 <div class="content">
-                <blockquote>
-                    Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
+                    <blockquote>
+                        Follow us, we know the path, we are the <strong>H4RV3S73R</strong>.
                     </blockquote>
                 </div>
             </div>
@@ -174,7 +174,6 @@ export const Home = () => (
                 <p class="tag is-size-4 is-success tag is-rounded">Access Control: Roles</p>
                 <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
-
         </div>
 
     </>
