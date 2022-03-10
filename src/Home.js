@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import TypeWriterEffect from 'react-typewriter-effect';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import PieChart from './components/PieChart'
 
 import t1 from './assets/harvest-main-800-600.png';
 import t2 from './assets/harvest-m1-800-600.png';
@@ -126,6 +128,10 @@ export const Home = () => (
                 <p>Owner: <strong>0xB06371532B0fEb5e1c4f5FB77Ec349CC5d514Fd7</strong></p>
                 <p>Contract Addresses: <strong>0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30</strong></p>
             </div>
+            <div class="column">
+                <PieChart />
+                </div>
+
         </div>
         
         <hr />
