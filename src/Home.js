@@ -1,8 +1,12 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import TypeWriterEffect from 'react-typewriter-effect';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import PieChart from './components/PieChart'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import PieChart from './components/PieChart';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import { FaSchool, FaWalking } from 'react-icons/fa';
+
 
 import t1 from './assets/harvest-main-800-600.png';
 import t2 from './assets/harvest-m1-800-600.png';
@@ -11,6 +15,8 @@ import key from './assets/harvest-key-1200-300.png';
 
 export const Home = () => (
     <>
+
+
         <div class="columns is-vcentered is-centered has-text-centered">
             <div class="column">
                 <p class="is-size-1"><strong>HARVEST HST</strong> ERC20 Token</p>
@@ -130,12 +136,11 @@ export const Home = () => (
             </div>
             <div class="column">
                 <PieChart />
-                </div>
+            </div>
 
         </div>
-        
-        <hr />
 
+        <hr />
         <div class="has-text-centered">
             <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Key Points</p>
             <p>&nbsp;</p>
@@ -180,6 +185,82 @@ export const Home = () => (
                 <p class="tag is-size-4 is-success tag is-rounded">Access Control: Roles</p>
                 <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
             </div>
+
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <VerticalTimeline>
+
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="2022 - present"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaWalking />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Phase I</h3>
+                        <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
+                        <p>
+                            Website
+                        </p>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="April, 2022"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaWalking />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Phase II</h3>
+                        <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
+                        <p>
+                            Listing on DEX
+                        </p>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="May, 2022"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaWalking />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Phase III</h3>
+                        <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
+                        <p>
+                            Airdrop
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="March 2023"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaWalking />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Phase IV</h3>
+                        <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
+                        <p>
+                            Start funding water wells in Africa
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--education"
+                        date="May 2023"
+                        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                        icon={<FaSchool />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Phase V</h3>
+                        <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
+                        <p>
+                            Harvest DAO will on board.
+                        </p>
+                    </VerticalTimelineElement>
+                    
+                </VerticalTimeline>
+
+            </div>
+
+
+
 
         </div>
 

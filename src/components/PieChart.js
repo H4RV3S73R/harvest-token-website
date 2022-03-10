@@ -17,7 +17,10 @@ const pieData = [
 const pieOptions = {
     title: '10 Million Total $HST Tokens',
     is3D: true,
-    pieHole: 0.4,
+    pieHole: 0.6,
+    fontSize: 12,
+    
+    
 }
 class PieChart extends Component {
     render() {
@@ -28,7 +31,7 @@ class PieChart extends Component {
                     <p>&nbsp;</p>
                 </div>
                 <Chart
-                    width={'600px'}
+                    width={'700px'}
                     height={'320px'}
                     chartType="PieChart"
                     loader={<div>Loading Chart</div>}
