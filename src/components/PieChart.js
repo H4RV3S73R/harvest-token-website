@@ -26,10 +26,7 @@ class PieChart extends Component {
     render() {
         return (
             <div>
-                <div class="has-text-centered">
-                    <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Token Distribution</p>
-                    <p>&nbsp;</p>
-                </div>
+   
                 <Chart
                     width={'700px'}
                     height={'320px'}
@@ -39,6 +36,7 @@ class PieChart extends Component {
                     options={pieOptions}
                     rootProps={{ 'data-testid': '3' }}
                 />
+
             </div>
         )
     }

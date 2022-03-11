@@ -7,7 +7,6 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { FaSchool, FaWalking } from 'react-icons/fa';
 
-
 import t1 from './assets/harvest-main-800-600.png';
 import t2 from './assets/harvest-m1-800-600.png';
 import general from './assets/harvest-general-1200-300.png';
@@ -15,7 +14,6 @@ import key from './assets/harvest-key-1200-300.png';
 
 export const Home = () => (
     <>
-
 
         <div class="columns is-vcentered is-centered has-text-centered">
             <div class="column">
@@ -134,11 +132,25 @@ export const Home = () => (
                 <p>Owner: <strong>0xB06371532B0fEb5e1c4f5FB77Ec349CC5d514Fd7</strong></p>
                 <p>Contract Addresses: <strong>0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30</strong></p>
             </div>
-            <div class="column">
-                <PieChart />
-            </div>
 
         </div>
+
+
+
+        <div class="has-text-centered">
+            <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Token Distribution</p>
+            <p>&nbsp;</p>
+        </div>
+
+        <div class="columns is-unselectable has-text-justified">
+
+<div class="column is-3"></div>
+            <div class="column is-6">
+                <PieChart />
+            </div>
+            <div class="column is-3"></div>
+        </div>
+
 
         <hr />
         <div class="has-text-centered">
@@ -188,8 +200,13 @@ export const Home = () => (
 
         </div>
 
-        <div class="columns">
-            <div class="column">
+        <div class="has-text-centered">
+            <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Road Map</p>
+            <p>&nbsp;</p>
+        </div>
+
+        <div class="columns is-unselectable has-text-justified">
+            <div class="column has-textcentered">
                 <VerticalTimeline>
 
                     <VerticalTimelineElement
@@ -254,7 +271,7 @@ export const Home = () => (
                             Harvest DAO will on board.
                         </p>
                     </VerticalTimelineElement>
-                    
+
                 </VerticalTimeline>
 
             </div>
