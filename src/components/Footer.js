@@ -47,17 +47,23 @@ export const Footer = () => (
           <div class="content">
 
             <p>
+
               <b>General</b>
+
             </p>
             <ul>
               <li>
                 <a href="https://github.com/H4RV3S73R" target="_new" title="HARVEST on Github"><FaGithub /> Github</a>
               </li>
+              </ul>
               <p></p>
+              <ul>
               <li>
                 <a href="https://www.twitter.com/H4RV3S73R" target="_new" title="HARVEST on Twitter"><FaTwitter /> Twitter</a>
               </li>
+              </ul>
               <p></p>
+              <ul>
               <li>
                 <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30#code" target="_new" title="HARVEST on SnowTrace"><FaFlagCheckered /> Verified Contract</a>
               </li>
