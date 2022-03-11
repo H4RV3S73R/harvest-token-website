@@ -27,7 +27,7 @@ const pieOptions = {
 class PieChart extends Component {
     render() {
         return (
-            <div class="has-text-centered">
+            <div class="has-text-centered is-multiline">
    
                 <Chart
 

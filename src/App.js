@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 import { NavigationBar } from './components/NavigationBar';
 
 
+
 class App extends Component {
   render() {
     return (
