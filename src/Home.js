@@ -173,36 +173,36 @@ export const Home = () => (
 
                 <div class="column has-text-centered">
                     <div class="block">
-                        <p class="tag is-size-4">Burnable</p>
+                        <p class="is-size-4">Burnable</p>
                         <p>Token holders are able to destroy their tokens.</p>
                     </div>
 
                     <div class="block">
-                        <p class="tag is-size-4">Snapshots</p>
+                        <p class="is-size-4">Snapshots</p>
                         <p>Privileged accounts will be able to store snapshots of balances that can be retrieved later.</p>
                     </div>
                     <div class="block">
-                        <p class="tag is-size-4">Votes</p>
+                        <p class="is-size-4">Votes</p>
                         <p>Keeps track of historical balances for voting in on-chain governance, with a way to delegate one's voting power to a trusted account.</p>
                     </div>
 
                     <div class="block">
-                        <p class="tag is-size-4">Access Control: Roles</p>
+                        <p class="is-size-4">Access Control: Roles</p>
                         <p>Flexible mechanism with a separate role for each privileged action. A role can have many authorized accounts.</p>
                     </div>
                 </div>
 
                 <div class="column has-text-centered">
                     <div class="block">
-                        <p class="tag is-size-4">Mintable</p>
+                        <p class="is-size-4">Mintable</p>
                         <p>Privileged accounts are <strong class="is-underlined">NOT</strong> able to create more supply.</p>
                     </div>
                     <div class="block">
-                        <p class="tag is-size-4">Pausable</p>
+                        <p class="is-size-4">Pausable</p>
                         <p>Privileged accounts can <strong class="is-underlined">NOT</strong> pause the functionality.</p>
                     </div>
                     <div class="block">
-                        <p class="tag is-size-4">Permit</p>
+                        <p class="is-size-4">Permit</p>
                         <p>Without paying gas, token holders are <strong class="is-underlined">NOT</strong> able to allow third parties to transfer from their account.</p>
                     </div>
                 </div>
