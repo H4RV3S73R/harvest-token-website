@@ -62,7 +62,7 @@ export const Home = () => (
             <div class="columns is-vcentered has-text-justified">
 
                 <div class="column">
-                    <img src={t2} alt="All your need about Social Media"
+                    <img src={t2} alt="Harvest $HST Token"
                         style={{
                             backgroundPosition: 'center',
                             backgroundSize: 'cover',
@@ -145,7 +145,7 @@ export const Home = () => (
                     }}>
 
                     <div class="has-text-centered">
-                        <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Token Distribution</p>
+                    <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Token Distribution</p>
                         <p>&nbsp;</p>
                     </div>
                     <PieChart />
@@ -157,7 +157,7 @@ export const Home = () => (
         <section class="section">
 
             <div class="has-text-centered">
-                <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Key Points</p>
+            <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Key Points</p>
                 <p>&nbsp;</p>
             </div>
 
@@ -212,7 +212,7 @@ export const Home = () => (
         </section>
 
         <div class="has-text-centered">
-            <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Road Map</p>
+        <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Road Map</p>
             <p>&nbsp;</p>
         </div>
 
