@@ -133,24 +133,23 @@ export const Home = () => (
                 <p>Contract Addresses: <strong>0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30</strong></p>
             </div>
 
-        </div>
+            <div class="column has-text-centered"
+                style={{
+                    backgroundImage: "url(" + general + ")",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    width: '100%',
+                }}>
 
-
-
-        <div class="has-text-centered">
-            <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Token Distribution</p>
-            <p>&nbsp;</p>
-        </div>
-
-        <div class="columns is-unselectable has-text-justified">
-
-<div class="column is-3"></div>
-            <div class="column is-6">
+                <div class="has-text-centered">
+                    <p class="tag is-size-3 is-info tag is-rounded has-text-centered">Token Distribution</p>
+                    <p>&nbsp;</p>
+                </div>
                 <PieChart />
             </div>
-            <div class="column is-3"></div>
-        </div>
 
+        </div>
 
         <hr />
         <div class="has-text-centered">

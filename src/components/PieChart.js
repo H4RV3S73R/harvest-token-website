@@ -18,18 +18,19 @@ const pieOptions = {
     title: '10 Million Total $HST Tokens',
     is3D: true,
     pieHole: 0.6,
-    fontSize: 12,
-    
+    width: '100%',
+    height: '400px',
     
 }
+
+
 class PieChart extends Component {
     render() {
         return (
-            <div>
+            <div class="has-text-centered">
    
                 <Chart
-                    width={'700px'}
-                    height={'320px'}
+
                     chartType="PieChart"
                     loader={<div>Loading Chart</div>}
                     data={pieData}
