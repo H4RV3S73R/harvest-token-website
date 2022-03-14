@@ -39,6 +39,8 @@ export const Footer = () => (
             <p>
               <center>© {new Date().getFullYear()} | <strong>HARVEST</strong></center>
             </p>
+            <center><button class="add-button">Add to Home Screen</button></center>
+
 
           </div>
         </div>
