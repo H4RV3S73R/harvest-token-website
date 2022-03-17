@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 
-import t from '../assets/harvest-l-500-300.png';
+import t from '../assets/harvest-l-500-300.webp';
 
 export const NavigationBar = () => (
   <>

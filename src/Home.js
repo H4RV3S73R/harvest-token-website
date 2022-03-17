@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaSchool, FaWalking } from 'react-icons/fa';
 
 import t1 from './assets/harvest-main-800-600.png';
-import t2 from './assets/harvest-m1-800-600.png';
+import t2 from './assets/harvest-m1-800-600.webp';
 import general from './assets/harvest-general-1200-300.png';
 import key from './assets/harvest-key-1200-300.png';
 
@@ -135,14 +135,7 @@ export const Home = () => (
 
                 </div>
 
-                <div class="column has-text-centered"
-                    style={{
-                        backgroundImage: "url(" + general + ")",
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        width: '100%',
-                    }}>
+                <div class="column has-text-centered">
 
                     <div class="has-text-centered">
                     <p class="tag is-size-3-desktop is-size-5-mobile is-info tag is-rounded has-text-centered">Token Distribution</p>
