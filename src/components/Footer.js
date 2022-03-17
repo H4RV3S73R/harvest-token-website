@@ -36,19 +36,25 @@ export const Footer = () => (
             <p><b>General</b></p>
             <ul>
               <li>
-                <a href="https://github.com/H4RV3S73R" target="_new" title="HARVEST on Github"><FaGithub /> Github</a>
+                <a href="https://github.com/H4RV3S73R/harvest-token-source-code" target="_new" title="HARVEST Source Code on Github"><FaGithub /> Source Code on Github</a>
+              </li>
+            </ul>
+            <p></p>
+            <ul>
+              <li>
+                <a href="https://github.com/H4RV3S73R/harvest-token-website" target="_new" title="HARVEST Website Code on Github"><FaGithub /> Website Code on Github</a>
+              </li>
+            </ul>
+            <p></p>
+            <ul>
+              <li>
+                <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30#code" target="_new" title="HARVEST on Avalanche Mainnet"><FaFlagCheckered /> Verified Contract on Avalanche Mainnet</a>
               </li>
             </ul>
             <p></p>
             <ul>
               <li>
                 <a href="https://www.twitter.com/H4RV3S73R" target="_new" title="HARVEST on Twitter"><FaTwitter /> Twitter</a>
-              </li>
-            </ul>
-            <p></p>
-            <ul>
-              <li>
-                <a href="https://snowtrace.io/address/0x96cb2c3E8f9Bcb22cA40B89AdF259c2642A6FF30#code" target="_new" title="HARVEST on Avalanche Mainnet"><FaFlagCheckered /> Verified Contract</a>
               </li>
             </ul>
           </div>
